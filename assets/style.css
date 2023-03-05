@@ -57,7 +57,7 @@ color: white;
 /*      !! HEADER !!        */
 
 /* this is the style detail of the header section */
-  header {
+  .hero-text header {
   padding: 20%;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   color: #ffffff;
