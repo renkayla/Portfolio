@@ -1,28 +1,88 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
 body, html {
-    height: 100%;
+  height: 100%;
+  background-color: whitesmoke
+
+}
+
+p {
+font-size: 28px;
+color:pink;
+}
+
+a:link {
+  color: white;
+}
+/* A link that has been visited */
+a:visited {
+  color: whitesmoke;
+}
+/* A link that is hovered on */
+a:hover {
+  color: lightgrey;
 }
 
 /* The hero image */
 .hero-image  {
-  /* Use "linear-gradient" to add a darken background effect to the image (00032840018.jpg). This will make the text easier to read */
-  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("000328480018.jpg");
+/* Use "linear-gradient" to add a darken background effect to the image (00032840018.jpg). This will make the text easier to read */
+background-image : linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("000328480018.jpg");
 
-  /* Set a specific height */
-  height: 100%;
+/* Set a specific height */
+height: 100%;
+width: auto;
 
-  /* Position and center the image to scale nicely on all screens */
-  background-position: center;
-  background-repeat: no-repeat;
-  background-size: cover;
-  position: relative;
+/* Position and center the image to scale nicely on all screens */
+background-position: center;
+background-repeat: no-repeat;
+background-size: cover;
+position: relative;
 }
 
 /* Place text in the middle of the image */
 .hero-text {
-  text-align: center;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  color: white;
+float: left;
+text-align: center;
+position: absolute;
+top: 50%;
+left: 50%;
+transform: translate(-50%, -50%);
+color: white;
+}
+
+/*      !! HEADER !!        */
+
+/* this is the style detail of the header section */
+  header {
+  padding: 20%;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  color: #ffffff;
+}
+/* header h1 details */
+header h1 {
+ display: inline-flex;
+  font-size: 80px;
+  margin-right: 470px
+}
+
+
+header nav {
+  padding-top: 15px;
+  margin-right: 20px;
+  float: right;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 20px;
+}
+/* no item marker will be shown */
+header nav ul {
+  list-style-type: none;
+}
+/* this keeps the links in line */
+header nav ul li {
+  display: inline-block;
+  margin-left: 25px;
 }
