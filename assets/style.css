@@ -11,7 +11,7 @@ body, html {
 }
 
 p {
-font-size: 28px;
+font-size: 25px;
 color:pink;
 font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 font-weight: bolder;
@@ -99,10 +99,17 @@ header nav ul li {
 
 /* all of section.content to be inline and have this width and left margin */
 section.content {
-  width: 75%;
+  text-align: justify;
+  width: 100%;
   display: inline-block;
-  margin-left: 20px;
+  margin: 10px;
 }
+
+p {
+  font-size: 16px;
+  font-display: flex;
+}
+
 /* article and descriptive paragraphs, their sizing, typography, color of lettering, and where in location of the box they will be */
 section.content article.content {
   margin-bottom: 20px;
@@ -119,7 +126,8 @@ section.content article.content img {
 /* this is seperated because two images float left, and their respective margin definition */
 section.content article.content img.float-left {
   float: left;
-  margin-right: 25px;
+  margin-right: 40px;
+  
 }
 /* this is seperated because it floats right and its margin definition */
 section.content article.content img.float-right {
@@ -129,7 +137,7 @@ section.content article.content img.float-right {
 /* this is where the header for the section article content's styling is, also combines all three header styles into one for consolidation because they are all the same */
 section.content article.content h2 {
   margin-bottom: 20px;
-  font-size: 36px;
+  font-size: 20px;
 }
 
 /* ASIDE BENEFITS*/
