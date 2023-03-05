@@ -86,3 +86,83 @@ header nav ul li {
   display: inline-block;
   margin-left: 25px;
 }
+
+/*  SECTION ARTICLE CONTENT */
+
+/* all of section.content to be inline and have this width and left margin */
+section.content {
+  width: 75%;
+  display: inline-block;
+  margin-left: 20px;
+}
+/* article and descriptive paragraphs, their sizing, typography, color of lettering, and where in location of the box they will be */
+section.content article.content {
+  margin-bottom: 20px;
+  padding: 50px;
+  height: 300px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  background-color: #0072bb;
+  color: #ffffff;
+}
+/* section.content images, all of their max heights combined together */
+section.content article.content img {
+  max-height: 200px;
+}
+/* this is seperated because two images float left, and their respective margin definition */
+section.content article.content img.float-left {
+  float: left;
+  margin-right: 25px;
+}
+/* this is seperated because it floats right and its margin definition */
+section.content article.content img.float-right {
+  float: right;
+  margin-left: 25px;
+}
+/* this is where the header for the section article content's styling is, also combines all three header styles into one for consolidation because they are all the same */
+section.content article.content h2 {
+  margin-bottom: 20px;
+  font-size: 36px;
+}
+
+/* ASIDE BENEFITS*/
+
+/* this is the box section located on the right side of the screen all the properties i can combine because they are all the same */
+aside.benefits {
+  margin-right: 20px;
+  padding: 20px;
+  clear: both;
+  float: right;
+  width: 20%;
+  height: 100%;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  background-color: #2589bd;
+}
+/* article.benefit consolidated style */
+aside.benefits article.benefit {
+  margin-bottom: 32px;
+  color: #ffffff;
+}
+/* article benefit h3 consolidated style */
+aside.benefits article.benefit h3 {
+  font-size: 16px;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+
+
+
+
+/*    !!  FOOTER  !!       */
+
+/* all of footer content style except h2 */
+footer {
+  padding: 30px;
+  clear: both;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  text-align: center;
+}
+/* h2 specified style */
+footer h2 {
+  font-size: 20px;
+}
