@@ -1,7 +1,7 @@
 * {
   box-sizing: border-box;
   padding: 0;
-  margin: 0;
+  margin-left: 0px;
 }
 
 body, html {
@@ -11,10 +11,11 @@ body, html {
 }
 
 p {
-font-size: 28px;
+font-size: 25px;
 color:pink;
 font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 font-weight: bolder;
+margin-left: 25px;
 }
 
 a:link {
@@ -40,6 +41,7 @@ background-image : linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(
 /* Set a specific height */
 height: 100%;
 width: 100%;
+margin-left: 10px;
 
 /* Position and center the image to scale nicely on all screens */
 background-position: center;
@@ -73,8 +75,12 @@ header h1 {
  position: relative;
   font-size: 100px;
   margin-right: 100px
+  margin-left: 50px;
 }
 
+header h1 p {
+  font-size: 25px;
+}
 
 header nav {
   padding-top: 15px;
@@ -90,23 +96,32 @@ header nav ul {
 /* this keeps the links in line */
 header nav ul li {
   display: inline-block; 
-  flex-wrap: wrap;
-  margin-left: 25px;
+  text-align: justify;
+  margin-top: 40px;
+  margin-right: 30px;
 }
 
 /*  SECTION ARTICLE CONTENT */
 
 /* all of section.content to be inline and have this width and left margin */
 section.content {
-  width: 75%;
+  text-align: justify;
+  width: 100%;
   display: inline-block;
-  margin-left: 20px;
+  margin: 10px;
 }
+
+p {
+  font-size: 16px;
+  font-display: flex;
+}
+
 /* article and descriptive paragraphs, their sizing, typography, color of lettering, and where in location of the box they will be */
 section.content article.content {
   margin-bottom: 20px;
   padding: 50px;
   height: 300px;
+  overflow: scroll;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   background-color: rgb(144, 112, 115);
   color: #ffffff;
@@ -118,7 +133,8 @@ section.content article.content img {
 /* this is seperated because two images float left, and their respective margin definition */
 section.content article.content img.float-left {
   float: left;
-  margin-right: 25px;
+  margin-right: 40px;
+  
 }
 /* this is seperated because it floats right and its margin definition */
 section.content article.content img.float-right {
@@ -128,17 +144,15 @@ section.content article.content img.float-right {
 /* this is where the header for the section article content's styling is, also combines all three header styles into one for consolidation because they are all the same */
 section.content article.content h2 {
   margin-bottom: 20px;
-  font-size: 36px;
+  font-size: 20px;
 }
 
 /* ASIDE BENEFITS*/
 
 /* this is the box section located on the right side of the screen all the properties i can combine because they are all the same */
 aside.benefits {
-  margin-right: 20px;
   padding: 20px;
-  clear: both;
-  float: right;
+  float: bottom;
   width: 20%;
   height: 100%;
   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -168,6 +182,8 @@ footer {
   clear: both;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
   text-align: center;
+  background-color: rgb(144, 112, 115);
+  margin: 10px;
 }
 /* h2 specified style */
 footer h2 {
