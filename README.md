@@ -7,6 +7,8 @@
 
 This is my first version of a profile showcasing my coding skills
 
+[LINK TO DEPLOYED PROFILE](https://renkayla.github.io/Portfolio/)
+
 
 ## Installation
 
