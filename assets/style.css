@@ -128,8 +128,8 @@ section.content article.box {
 }
 /* section.content images, all of their max heights combined together */
 section.content article.box img {
-  max-height: 300px;
-  max-width: 300px;
+  max-height: 500px;
+  max-width: 500px;
 }
 /* this is seperated because two images float left, and their respective margin definition */
 section.content article.box img.float-left {
